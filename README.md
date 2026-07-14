@@ -1,4 +1,4 @@
-# ⚡ TaskPriority Pro
+#  TaskPriority Pro
 
 **Sistema Inteligente de Gestión de Tareas mediante Colas de Prioridad y Árboles AVL**
 
@@ -6,7 +6,7 @@
 
 ---
 
-## 📋 Descripción
+##  Descripción
 
 TaskPriority Pro es una aplicación web que gestiona tareas usando **dos estructuras de datos avanzadas implementadas desde cero**:
 
@@ -17,7 +17,7 @@ Ambas estructuras se mantienen **sincronizadas en todo momento** a través de un
 
 ---
 
-## 🛠 Tecnologías
+##  Tecnologías
 
 | Capa | Tecnología |
 |------|-----------|
@@ -32,7 +32,7 @@ Ambas estructuras se mantienen **sincronizadas en todo momento** a través de un
 
 ---
 
-## 🚀 Instalación y ejecución
+##  Instalación y ejecución
 
 ### Requisitos previos
 - Node.js ≥ 18
@@ -42,7 +42,7 @@ Ambas estructuras se mantienen **sincronizadas en todo momento** a través de un
 
 ```bash
 # 1. Clonar el repositorio
-git clone https://github.com/<usuario>/taskpriority-pro.git
+git clone https://github.com/jose-vanegas22/Proyecto_ADA_I.git
 cd taskpriority-pro
 
 # 2. Instalar dependencias
@@ -63,7 +63,7 @@ npm run preview   # previsualizar el build
 
 ---
 
-## 📁 Estructura del proyecto
+##  Estructura del proyecto
 
 ```
 taskpriority-pro/
@@ -107,7 +107,7 @@ taskpriority-pro/
 
 ---
 
-## ✅ Funcionalidades
+##  Funcionalidades
 
 ### Operaciones principales
 | Operación | Estructura usada | Complejidad |
@@ -141,7 +141,7 @@ taskpriority-pro/
 
 ---
 
-## 🧪 Casos de prueba (PDF requisito)
+##  Casos de prueba (PDF requisito)
 
 | ID | Nombre | Qué valida |
 |----|--------|-----------|
@@ -154,7 +154,7 @@ Para ejecutarlos: ir a la sección **Casos de Prueba** → botón **Ejecutar pru
 
 ---
 
-## 🏗 Decisiones de diseño
+##  Decisiones de diseño
 
 **¿Por qué Max-Heap y no Min-Heap?**
 Porque el sistema necesita acceder a la tarea de mayor prioridad. Con un Max-Heap la raíz siempre es el máximo sin necesidad de invertir valores.
@@ -167,7 +167,7 @@ Para garantizar que el Heap y el AVL nunca se desincronicen. Toda mutación pasa
 
 ---
 
-## 👥 Autores
+##  Autores
 
 | Nombre | Rol |
 |--------|-----|
@@ -177,8 +177,3 @@ Para garantizar que el Heap y el AVL nunca se desincronicen. Toda mutación pasa
 **Materia:** Análisis de Algoritmos I  
 **Año:** 2025
 
----
-
-## 📜 Licencia
-
-Proyecto académico — uso educativo.
